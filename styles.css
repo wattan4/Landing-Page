@@ -1,0 +1,177 @@
+body{
+display:flex;
+flex-direction: column;
+}
+
+.header,.footer{
+background-color: #1f2937;
+color:#f9faf8;
+}
+
+.header-top{
+display:flex;
+flex:1;
+padding: 10px 200px;
+justify-content: space-between;
+}
+
+.header-top h2{
+font-size: 24px;
+}
+
+.header-top ul{
+display:flex;
+font-size: 18px;
+color: #e5e7eb;
+list-style-type: none;
+gap: 18px;
+}
+
+.header-bottom p{
+font-size: 18px;
+color: #e5e7eb;
+}
+
+li{
+display:inline-block;
+}
+
+.header-bottom{
+display:flex;
+padding: 50px 200px;
+justify-content: center;
+}
+
+.header-content{
+display:flex;
+flex-direction: column;
+flex:1;
+max-width: 400px;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.header h1{
+font-size: 48px;
+font-weight: 800;
+margin:0;
+}
+
+button{
+background-color: #3882f6;
+color:#f9faf8;
+border-color: #f9faf8;
+border-radius: 5px;
+padding: 5px 18px;
+width:100px;
+}
+
+.placeholder-img{
+display:flex;
+flex:1;
+justify-content: center;
+align-items: center;
+background-color: #808080;
+margin-left:50px;
+max-width:400px;
+}
+
+.info{
+display:flex;
+flex-direction: column;
+background-color: #f9faf8;
+padding: 50px 200px;
+}
+
+.info h2{
+display:flex;
+justify-content: center;
+font-size: 36px;
+font-weight: 800;
+color:#1f2937;
+}
+
+.cards{
+display: flex;
+justify-content: center;
+font-size: 18px;
+font-weight: 100;
+gap: 50px;
+}
+
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100px;
+}
+
+.box{
+background-color: #f9faf8;
+border: 2px solid #3882f6;
+height: 100px;
+width: 100px;
+border-radius: 10px;
+}
+
+.card p{
+text-align: center;
+}
+
+.quote-box{
+display:flex;
+background-color: #e5e7eb;
+padding: 50px 200px;
+flex-direction: column;
+}
+
+.quote{
+font-size: 36px;
+font-style: italic;
+font-weight: 100;
+color: #1f2937;
+margin: 0px;
+}
+
+.signature{
+font-size: 18px;
+font-weight: bold;
+color:#1f2937;
+text-align: right;
+margin:0px;
+}
+
+.cta{
+display:flex;
+background-color: #3882f6;
+color:#f9faf8;
+margin: 50px 200px;
+border-radius: 10px;
+}
+
+.cta-text{
+display:flex;
+flex-direction: column;
+flex:1;
+justify-content: center;
+margin:50px;
+}
+
+.cta-big{
+font-size: 24px;
+}
+
+.cta-small{
+font-size: 18px;
+}
+
+.cta-button{
+flex:0;
+margin: 50px;
+}
+
+.footer{
+padding: 10px;
+text-align: center;
+}
+
